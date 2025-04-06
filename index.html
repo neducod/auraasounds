@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Sound</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Aura Sounds</h1>
+        </div>
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <p>"Sounds that resonate with your soul."</p>
+    </div>
+
+
+    <div>
+        <h2 id="playlistTitle">Select a mood to start 🎶</h2>
+        <button onclick="showPlaylist('sad')">Sad 😢</button>
+        <button onclick="showPlaylist('happy')">Happy 😊</button>
+        <button onclick="showPlaylist('chill')">Chill😌</button>
+        <button onclick="showPlaylist('energetic')">Energetic🕺</button>
+        <button onclick="showPlaylist('nostalgic')">Nostalgic🕰️ </button>
+        <button onclick="showPlaylist('focused')">Focused</button>
+        <button onclick="showPlaylist('romance')">Romance❤️</button>
+        <!-- and so on -->
+        <div id="playlistContainer"></div>
+        <iframe
+            id="player"
+            width="560"
+            height="315"
+            src=""
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+        
+    </div>
+
+    <footer>
+        <div>
+            jgklfdkjhjgkf,m bv
+        </div>
+        <div>
+            <form action="">
+                <div>
+                    <label for="full-name">Your name</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div>
+                    <label for="message"></label>
+                    <input type="text" name="" id="">
+                </div>
+                <button type="submit">Send me a message</button>
+            </form>
+        </div>
+        <div class="hr"></div>
+        <p>Built and designed with love by <a href="#">Josephine Jerome</a></p>
+    </footer>
+ <!----  <section>
+        <div class="catlogue">
+            <div class="section">
+                <button onclick="filterItems('all')">
+                    Aura Sounds
+                </button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">Happy</button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">Sad</button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">Chill</button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">Focused</button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">Energetic</button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">Nostalgic</button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">RnB</button>
+            </div>
+            <div class="section">
+                <button onclick="filterItems('all')">Romance</button>
+            </div>
+        </div>
+    </section>-->
+
+<!--    <section>
+        <div data-category="happy" class="item">
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://music.youtube.com/playlist?list=RDCLAK5uy_ktU_MiPyxsoBpl68TuShAvg-ZCArB772M&playnext=1&si=RBiQd9kmqVkjhLgW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>-->
+
+
+</body>
+<script src="./script.js"></script>
+</html>
